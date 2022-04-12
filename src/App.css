@@ -1,4 +1,6 @@
-.md {
+.pageContainer {
   width: 100%;
   height: 100vh;
+  padding: 8em 5em;
+  box-sizing: border-box;
 }

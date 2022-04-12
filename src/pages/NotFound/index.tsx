@@ -5,7 +5,7 @@ function NotFound() {
     # Página no encontrada
   
   `
-    return <MarkdownPreview source={source} className="md" />
+    return <MarkdownPreview source={source} className="pageContainer" />
 }
 
 export default NotFound
