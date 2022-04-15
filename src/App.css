@@ -1,6 +1,13 @@
 .pageContainer {
   width: 100%;
+  height: auto;
+  padding: 4em 4em;
+  box-sizing: border-box;
+}
+
+.notFoundContainer {
+  width: 100%;
   height: 100vh;
-  padding: 8em 5em;
+  padding: 10em 10em;
   box-sizing: border-box;
 }
