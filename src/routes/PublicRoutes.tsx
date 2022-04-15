@@ -12,7 +12,7 @@ export const PublicRoutes = () => {
 
             <Routes>
 
-                <Route path="/about" element={<About />} />
+                <Route path="/" element={<About />} />
                 <Route path="/courses" element={<Courses />} />
                 <Route path="*" element={<NotFound />} />
             </Routes >
