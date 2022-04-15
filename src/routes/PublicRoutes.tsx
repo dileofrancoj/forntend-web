@@ -9,9 +9,7 @@ export const PublicRoutes = () => {
     return (
         <BrowserRouter>
             <Navbar />
-
             <Routes>
-
                 <Route path="/" element={<About />} />
                 <Route path="/courses" element={<Courses />} />
                 <Route path="*" element={<NotFound />} />
