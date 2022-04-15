@@ -5,12 +5,12 @@ function Home() {
   const source = `
   # Franco Di Leo
   ## About me 
-  Passionate about programming, physics and mathematics.
+  I'm passionate about programming, physics and mathematics.
 I have fun with technology, I love challenges and
 entrepreneurship. </br>
-I have vast experience in IT education. You can see all the courses <a href="/courses"> here </a>
+I have vast experience in IT education. You can see all the courses in courses tab
   ## Work Experience
- ### - Fullstack Engineer at Pedidos Ya (Nov 2019 - Current)
+ ### - Fullstack Engineer at Pedidos Ya (Nov 2021 - Current)
   ### - Tech leader en Municipalidad de San Nicolas</b> (Jan 2021 - Nov 2021)
   <h4> Job description</h4>
   IT Consultant helping teams across projects. Experience

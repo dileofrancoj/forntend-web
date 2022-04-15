@@ -1,11 +1,11 @@
 import MarkdownPreview from '@uiw/react-markdown-preview'
 
-function NotFound() {
+function Education() {
   const source = `
-    # Página no encontrada
+    # Education
   
   `
   return <MarkdownPreview source={source} className="fullContainer" />
 }
 
-export default NotFound
+export default Education

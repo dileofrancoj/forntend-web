@@ -1,11 +1,11 @@
 import MarkdownPreview from '@uiw/react-markdown-preview'
 
-function NotFound() {
+function Blog() {
   const source = `
-    # Página no encontrada
+    # En construcción
   
   `
   return <MarkdownPreview source={source} className="fullContainer" />
 }
 
-export default NotFound
+export default Blog
