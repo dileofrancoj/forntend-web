@@ -29,7 +29,7 @@ function Courses() {
   ### Algorithms
   `;
   return (
-    <MarkdownPreview source={source} className="fullContainer" />
+    <MarkdownPreview source={source} className="pageContainer" />
   )
 }
 
