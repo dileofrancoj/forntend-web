@@ -1,8 +1,11 @@
+html {
+  background: #0d1117;
+}
+
 .pageContainer {
   width: 100%;
   height: auto;
   padding: 2em 3em;
-  background: black;
   box-sizing: border-box;
 }
 
