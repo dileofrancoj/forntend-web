@@ -13,6 +13,7 @@ function Education() {
   <li> Initial Web Developer (UTN)</li>
   <li> Advanced Web Developer (UTN)</li>
   <li> React JS (UTN)</li>
+  <li> Testing en Javascript (Kent C. Dodds)</li>
   <li> Algorithms and Data structures (UTN)</li>
   <li> IoT (UTN)</li>
   </ul>   
