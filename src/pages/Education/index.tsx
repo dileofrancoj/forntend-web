@@ -1,4 +1,4 @@
-import MarkdownPreview from '@uiw/react-markdown-preview'
+import MarkdownPreview from '@uiw/react-markdown-preview';
 
 function Education() {
   const source = `
@@ -17,8 +17,8 @@ function Education() {
   <li> Algorithms and Data structures (UTN)</li>
   <li> IoT (UTN)</li>
   </ul>   
-  `
-  return <MarkdownPreview source={source} className="fullContainer" />
+  `;
+  return <MarkdownPreview source={source} className='fullContainer' />;
 }
 
-export default Education
+export default Education;

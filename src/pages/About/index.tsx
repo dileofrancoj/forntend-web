@@ -1,4 +1,4 @@
-import MarkdownPreview from '@uiw/react-markdown-preview'
+import MarkdownPreview from '@uiw/react-markdown-preview';
 
 function Home() {
   const source = `
@@ -52,8 +52,8 @@ AWS infrastructure).
 Responsible for the analysis, design and development of all
 projects. Experience in JIRA, Angular, AWS, Docker and
 WebServers.
-  `
-  return <MarkdownPreview source={source} className="pageContainer" />
+  `;
+  return <MarkdownPreview source={source} className='pageContainer' />;
 }
 
-export default Home
+export default Home;

@@ -1,8 +1,8 @@
-import './App.css'
-import { PublicRoutes } from './routes/PublicRoutes'
+import './App.css';
+import { PublicRoutes } from './routes/PublicRoutes';
 
 function App() {
-  return <PublicRoutes />
+  return <PublicRoutes />;
 }
 
-export default App
+export default App;
