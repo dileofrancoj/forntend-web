@@ -1,7 +1,6 @@
-import MarkdownPreview from '@uiw/react-markdown-preview';
+import MarkdownPreview from '@uiw/react-markdown-preview'
 
 function Courses() {
-
   const source = `
   # IT Trainer
   ## UTN (2016 - 2022)
@@ -27,10 +26,8 @@ function Courses() {
   ### Javascript
   ### Fullstack developer (React & NodeJS)
   ### Algorithms
-  `;
-  return (
-    <MarkdownPreview source={source} className="pageContainer" />
-  )
+  `
+  return <MarkdownPreview source={source} className="pageContainer" />
 }
 
 export default Courses
