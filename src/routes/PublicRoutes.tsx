@@ -5,6 +5,7 @@ import Courses from '../pages/Courses';
 import NotFound from '../pages/NotFound';
 import Education from '../pages/Education';
 import Blog from '../pages/Blog';
+import Stuff from '../pages/Stuff/Stuff'
 
 import Navbar from '../components/CustomNavbar';
 
@@ -16,6 +17,7 @@ export const PublicRoutes = () => {
         <Route path='/' element={<About />} />
         <Route path='/courses' element={<Courses />} />
         <Route path='/education' element={<Education />} />
+        <Route path='/stuff' element={<Stuff />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='*' element={<NotFound />} />
       </Routes>

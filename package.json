@@ -7,7 +7,10 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint --ignore-path .gitignore 'src/**/*.{ts,tsx}'",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(ts|tsx|json)\""
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|json)\"",
+    "format": "npm run prettier -- --write",
+    "check-format": "prettier --ignore-path .gitignore --list-different \"**/*.+(ts|tsx|json)\"",
+    "validate": "npm run lint && npm run build"
   },
   "dependencies": {
     "@uiw/react-markdown-preview": "^4.0.5",
