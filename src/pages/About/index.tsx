@@ -34,8 +34,7 @@ them.</li>
 <li>Create changelog by standardizing committing messages. </li>
 
 ### CEO Chaak Argentina (Feb 2019 Dec 2020)
-Sales manager, Software analyst and developer of a small self
-made business. <br/>
+Sales manager, Software analyst and developer of a small self made business. <br/>
 Chaak was a cultivation system that allows you
 to control all your plants from a mobile application.
 <br/>
@@ -43,9 +42,8 @@ Responsible for the application and electronic development.
 Experience in C, Angular, AWS, IoT, NodeJS and electronics.
 
 ### CTO Solwin Argentina (August 2016 - 2021)
-Sales manager, Software analyst and developer of a small self
-
-made business. Responsible for all company projects (E-
+Sales manager, Software analyst and developer of a small self made business. 
+Responsible for all company projects (E-
 commerce platform, implementation, WebServers, MailServers,
 
 AWS infrastructure).
