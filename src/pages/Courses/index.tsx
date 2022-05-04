@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet';
 import MarkdownPreview from '@uiw/react-markdown-preview';
+import Footer from '../../components/Footer';
 
 function Courses() {
   const source = `
@@ -37,6 +38,7 @@ function Courses() {
         </title>
       </Helmet>
       <MarkdownPreview source={source} className='pageContainer' />
+      <Footer />
     </>
   )
 }

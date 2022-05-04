@@ -5,7 +5,6 @@ function CustomNav() {
     { id: '1', name: 'About', link: '/' },
     { id: '2', name: 'Courses', link: '/courses' },
     { id: '3', name: 'Education', link: '/education' },
-    { id: '4', name: 'Blog', link: '/blog' },
     { id: '5', name: 'Stuff', link: '/stuff' },
 
   ];
