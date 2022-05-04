@@ -16,9 +16,9 @@ const Stuff = () => {
                         <li>Macbook Pro 16"</li>
                         <li>Monitor DELL Regulable</li>
                         <li>Airpods Max para las reuniones (y para enfocarme mientras codeo)</li>
-                        <li>Teclado mecánico viperX</li>
+                        <li>Teclado mecánico HYPERX</li>
                         <li>Silla ergonómica</li>
-                        <li>Magic Mouse</li>
+                        <li>Magic Mouse v2</li>
                         <li>Kindle para lecturas relajadas</li>
                         <li>Tira LED RGB Phillips para ambientar la oficina</li>
 
