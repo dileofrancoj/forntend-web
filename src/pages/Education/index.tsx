@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 
 function Education() {
@@ -18,7 +19,16 @@ function Education() {
   <li> IoT (UTN)</li>
   </ul>   
   `;
-  return <MarkdownPreview source={source} className='fullContainer' />;
+  return (
+    <>
+      <Helmet>
+        <title>
+          Education
+        </title>
+      </Helmet>
+      <MarkdownPreview source={source} className='fullContainer' />
+    </>
+  )
 }
 
 export default Education;

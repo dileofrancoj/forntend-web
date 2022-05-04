@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 
 function Courses() {
@@ -27,7 +28,17 @@ function Courses() {
   ### Fullstack developer (React & NodeJS)
   ### Algorithms
   `;
-  return <MarkdownPreview source={source} className='pageContainer' />;
+
+  return (
+    <>
+      <Helmet>
+        <title>
+          Courses
+        </title>
+      </Helmet>
+      <MarkdownPreview source={source} className='pageContainer' />
+    </>
+  )
 }
 
 export default Courses;

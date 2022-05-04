@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 
 function Home() {
@@ -51,7 +52,16 @@ Responsible for the analysis, design and development of all
 projects. Experience in JIRA, Angular, AWS, Docker and
 WebServers.
   `;
-  return <MarkdownPreview source={source} className='pageContainer' />;
+  return (
+    <>
+      <Helmet>
+        <title>
+          About me
+        </title>
+      </Helmet>
+      <MarkdownPreview source={source} className='pageContainer' />
+    </>
+  )
 }
 
 export default Home;
