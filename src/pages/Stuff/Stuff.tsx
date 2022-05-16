@@ -1,6 +1,5 @@
 import { Row, Col, Image } from 'react-bootstrap';
 import { Container } from '../../components/Container.styled'
-import Footer from '../../components/Footer';
 
 const Stuff = () => {
     return (
@@ -31,7 +30,6 @@ const Stuff = () => {
                     </Col>
                 </Row>
             </Container>
-            <Footer />
         </>
     )
 }

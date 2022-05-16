@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet';
 import MarkdownPreview from '@uiw/react-markdown-preview';
-import Footer from '../../components/Footer';
 
 function Education() {
   const source = `
@@ -28,7 +27,6 @@ function Education() {
         </title>
       </Helmet>
       <MarkdownPreview source={source} className='fullContainer' />
-      <Footer />
     </>
   )
 }
