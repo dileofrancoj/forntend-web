@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import MarkdownPreview from '@uiw/react-markdown-preview';
-
+import { ContentContainer } from '../../components/Container.styled'
 
 function Home() {
   const source = `
@@ -60,7 +60,10 @@ WebServers.
           About me
         </title>
       </Helmet>
-      <MarkdownPreview source={source} className='pageContainer' />
+      <ContentContainer>
+        <MarkdownPreview source={source} className='pageContainer' />
+      </ContentContainer>
+
     </>
   )
 }

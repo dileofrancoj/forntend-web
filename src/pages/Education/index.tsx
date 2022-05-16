@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet';
 import MarkdownPreview from '@uiw/react-markdown-preview';
+import { ContentContainer } from '../../components/Container.styled';
 
 function Education() {
   const source = `
@@ -26,7 +27,9 @@ function Education() {
           Education
         </title>
       </Helmet>
-      <MarkdownPreview source={source} className='fullContainer' />
+      <ContentContainer>
+        <MarkdownPreview source={source} className='fullContainer' />
+      </ContentContainer>
     </>
   )
 }

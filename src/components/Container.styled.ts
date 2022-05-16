@@ -16,3 +16,7 @@ export const FooterContainer = styled.div`
   color: #c9d1d9;
   padding: 2.5em 0 3em 0;
 `;
+
+export const ContentContainer = styled.div`
+  padding-top:24px;
+`

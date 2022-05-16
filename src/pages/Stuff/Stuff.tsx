@@ -3,7 +3,7 @@ import { Container } from '../../components/Container.styled'
 
 const Stuff = () => {
     return (
-        <>
+        <div style={{ paddingTop: 24 }}>
             <Container>
                 <Row className="justify-content-md-center">
                     <Col md={6} xs={12}>
@@ -30,7 +30,7 @@ const Stuff = () => {
                     </Col>
                 </Row>
             </Container>
-        </>
+        </div>
     )
 }
 

@@ -1,4 +1,10 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import Styled from 'styled-components';
+
+const CustomNavbar = Styled(Navbar)`
+  position:fixed;
+  width:100%
+`
 import { NavLink } from 'react-router-dom';
 function CustomNav() {
   const links = [
@@ -9,7 +15,7 @@ function CustomNav() {
 
   ];
   return (
-    <Navbar bg='dark' variant='dark'>
+    <CustomNavbar bg='dark' variant='dark'>
       <Container>
         <Nav className='me-auto'>
           {links.map(({ name, link, id }) => (
@@ -20,13 +26,14 @@ function CustomNav() {
                 color: isActive ? '#fff' : '#545e6f',
               })}
               to={link}
+              key={id}
             >
               {name}
             </NavLink>
           ))}
         </Nav>
       </Container>
-    </Navbar>
+    </CustomNavbar>
   );
 }
 
