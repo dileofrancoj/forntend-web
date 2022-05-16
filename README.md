@@ -10,3 +10,6 @@ Web personal
 - Helmet 🪖
 - Boostrap
 - Styled Components 💅
+
+# Deploy
+- Vercel
