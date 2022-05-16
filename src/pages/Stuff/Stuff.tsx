@@ -5,7 +5,6 @@ import Footer from '../../components/Footer';
 const Stuff = () => {
     return (
         <>
-
             <Container>
                 <Row className="justify-content-md-center">
                     <Col md={6} xs={12}>
@@ -28,7 +27,6 @@ const Stuff = () => {
                             <li>Magic Mouse v2</li>
                             <li>Kindle para lecturas relajadas</li>
                             <li>Tira LED RGB Phillips para ambientar la oficina</li>
-
                         </ul>
                     </Col>
                 </Row>

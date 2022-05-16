@@ -16,7 +16,3 @@ export const FooterContainer = styled.div`
   color: #c9d1d9;
   padding: 2.5em 0 3em 0;
 `;
-
-export const IconsContainer = styled.div`
-  font-size: 42px;
-`;

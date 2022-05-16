@@ -5,7 +5,7 @@ import Courses from '../pages/Courses';
 import NotFound from '../pages/NotFound';
 import Education from '../pages/Education';
 import Blog from '../pages/Blog';
-import Stuff from '../pages/Stuff/Stuff'
+import Stuff from '../pages/Stuff'
 
 import Navbar from '../components/CustomNavbar';
 
