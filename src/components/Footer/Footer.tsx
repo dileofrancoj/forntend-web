@@ -13,16 +13,14 @@ const Footer = () => {
     ]
     return (
         <FooterContainer>
-            <Row className="justify-content-md-center">
-                <Col md={6} xs={12}>
-                    <IconsContainer>
-                        {icons.map((icon) =>
-                            <span className="ms-3" key={icon.id}>
-                                {icon.icon}
-                            </span>
+            <Row className="justify-content-center m-0 p-0">
+                <Col md={3} xs={8}>
+                    {icons.map((icon) =>
+                        <span className="ms-3 display-4" key={icon.id}>
+                            {icon.icon}
+                        </span>
 
-                        )}
-                    </IconsContainer>
+                    )}
                 </Col>
             </Row>
         </FooterContainer>
